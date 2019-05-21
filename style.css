@@ -17,6 +17,43 @@
  	box-shadow: 0 5px 10px #efefef
 
  }
+ ul{
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+ul li{
+
+    float: right
+    
+   
+    background-color: black;
+    
+    
+    
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+ ul li a{
+    text-decoration: none;
+    color: pink;
+    display: block;
+}
+ul li a:hover{
+    background-color: orange;
+}
+ul li ul li{
+    display: none;
+
+}
+ul li:hover ul li{
+    display: block;
+}
 
 
  .logo
@@ -43,7 +80,7 @@
  }
 
  .main-content-header{
- 	font-family: 'Bree Serif', serif;
+ 	
  	
  	position: absolute;
  	

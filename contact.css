@@ -1,0 +1,51 @@
+
+body
+{
+  margin: 0;
+  padding: 0
+  text-align: center;
+  background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(ser.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+.forms{
+  top: 50%;
+  margin-left: 50%;
+  position: relative; 
+  transform: translate(-55%, -50%);
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.form-control {
+
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid gray;
+  margin bottom: 16px;
+}
+
+@media only screen and (max-width: 600px){
+
+  h3 {
+      font-size: 1.1em;
+    }
+}
+
+p {
+
+  text-align: center;
+}
